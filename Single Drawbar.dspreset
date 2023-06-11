@@ -269,7 +269,7 @@
     </group>
     
 
-    <group tags="key-click,A">
+    <group tags="key-click,A" release="1.00">
       <sample loNote="24" hiNote="24" rootNote="24" path="Samples/KeyClick/KeyClick_5C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="25" hiNote="25" rootNote="25" path="Samples/KeyClick/KeyClick_5C#.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="26" hiNote="26" rootNote="26" path="Samples/KeyClick/KeyClick_5D.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -478,7 +478,7 @@
       <effects/>
     </group>
     
-    <group tags="key-click,B">
+    <group tags="key-click,B" release="1.00">
       <sample loNote="24" hiNote="24" rootNote="24" path="Samples/KeyClick_Dub/KeyClick_5C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="25" hiNote="25" rootNote="25" path="Samples/KeyClick_Dub/KeyClick_5C#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="26" hiNote="26" rootNote="26" path="Samples/KeyClick_Dub/KeyClick_5D_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -687,7 +687,7 @@
       <effects/>
     </group>
     
-    <group tags="key-click,A2">
+    <group tags="key-click,A2" release="1.00">
       <sample loNote="24" hiNote="24" rootNote="24" path="Samples/KeyClick/KeyClick_5C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="25" hiNote="25" rootNote="25" path="Samples/KeyClick/KeyClick_5C#.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="26" hiNote="26" rootNote="26" path="Samples/KeyClick/KeyClick_5D.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
