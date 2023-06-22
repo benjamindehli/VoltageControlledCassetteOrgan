@@ -34,15 +34,17 @@ To ensure optimal performance and flexibility, the library offers two presets: A
 
 ### All Drawbars
 
-![Omni-84 Chords](/Screenshots/AllDrawbars.png)
-*User interface for the "All Drawbars" preset.*
+|![User interface for the "All Drawbars" preset](/Screenshots/AllDrawbars.png)|
+|:--:|
+|User interface for the "All Drawbars" preset|
 
 The "All Drawbars" preset plays back 20 different samples per note, resulting in a rich and complex sound. However, it does demand significant system resources, especially when playing big chords.
 
 ### Single Drawbar
 
-![Omni-84 SonicStrings](/Screenshots/SingleDrawbar.png)
-*User interface for the "Single Drawbar" preset.*
+|![User interface for the "Single Drawbar" preset](/Screenshots/SingleDrawbar.png)|
+|:--:|
+|User interface for the "Single Drawbar" preset|
 
 As a more resource-friendly alternative, the "Single Drawbar" preset plays back only four samples per key. This preset also incorporates additional knobs for adjusting the envelope decay curve and release curve, maximizing your creative control.
 
@@ -53,11 +55,13 @@ Explore parameters to refine your sound, including control over the nine drawbar
 
 ### ADSR Envelope
 
-![Omni-84 SonicStrings](/Screenshots/envelope_AllDrawbars.png)
-*Envelope controls for the "All Drawbars" preset.*
+|![Envelope controls for the "All Drawbars" preset](/Screenshots/envelope_AllDrawbars.png)|
+|:--:|
+|Envelope controls for the "All Drawbars" preset|
 
-![Omni-84 SonicStrings](/Screenshots/envelope_SingleDrawbar.png)
-*Envelope controls for the "Single Drawbar" preset.*
+|![Envelope controls for the "Single Drawbar" preset](/Screenshots/envelope_SingleDrawbar.png)|
+|:--:|
+|Envelope controls for the "Single Drawbar" preset|
 
 Shape your sound precisely with the Attack, Decay, Sustain, and Release parameters. Whether you desire a punchy, staccato tone or a smooth, lingering ambiance, the ADSR envelope allows you to tailor the dynamics to your liking.
 
@@ -72,8 +76,9 @@ Shape your sound precisely with the Attack, Decay, Sustain, and Release paramete
 
 #### Envelope curves
 
-![Omni-84 SonicStrings](/Screenshots/envelopeCurves.png)
-*Controls for envelope curves. The decay curve and release curve is only available for the "Single Drawbar" preset*
+|![Controls for envelope curves](/Screenshots/envelopeCurves.png)|
+|:--:|
+|Controls for envelope curves|
 
 For even more control over the envelope, you can change the curve of the attack time. The "Single Drawbar" preset also incorporates two additional knobs for decay curve and release curve. The decay curve and release curve are exponential for the "All Drawbars" preset.
 
@@ -86,11 +91,13 @@ For even more control over the envelope, you can change the curve of the attack 
 
 ### LFO
 
-![Omni-84 SonicStrings](/Screenshots/lfo_AllDrawbars.png)
-*LFO controls for the "All Drawbars" preset.*
+|![LFO controls for the "All Drawbars" preset](/Screenshots/lfo_AllDrawbars.png)|
+|:--:|
+|LFO controls for the "All Drawbars" preset|
 
-![Omni-84 SonicStrings](/Screenshots/lfo_SingleDrawbar.png)
-*LFO controls for the "Single Drawbar" preset.*
+|![LFO controls for the "Single Drawbar" preset](/Screenshots/lfo_SingleDrawbar.png)|
+|:--:|
+|LFO controls for the "All Drawbars" preset|
 
 The LFO Rate and LFO Depth knobs enable you to modulate the amplitude of the drawbars with the desired depth and rate using the Low-Frequency Oscillator (LFO), opening up a world of rhythmic possibilities.
 
@@ -101,15 +108,17 @@ The LFO Rate and LFO Depth knobs enable you to modulate the amplitude of the dra
 
 ### Drawbars
 
-![Omni-84 SonicStrings](/Screenshots/drawbars.png)
-*Drawbar controls for the "All Drawbars" preset.*
+|![Drawbar controls for the "All Drawbars" preset](/Screenshots/drawbars.png)|
+|:--:|
+|Drawbar controls for the "All Drawbars" preset|
 
 Unleash the power of the nine drawbars to shape your organ's tone with precision. Each drawbar controls the amplitude of a specific harmonic overtone, offering you unparalleled control over the instrument's harmonic richness.
 
 ### Key click
 
-![Omni-84 SonicStrings](/Screenshots/keyClick.png)
-*Volume control for the "key click" sound.*
+|![Volume control for the "key click" sound](/Screenshots/keyClick.png)|
+|:--:|
+|Volume control for the "key click" sound|
 
 During the early production of Hammond organs, a seemingly unintentional and unwanted occurrence was observed — a distinctive click or pop sound that accompanied the pressing of a key. Initially, this peculiar phenomenon was perceived as a manufacturing flaw or an undesirable artifact of the instrument. Efforts were made to mitigate or eliminate the clicking sound, as it was not part of the intended design.
 
@@ -119,8 +128,9 @@ The click's percussive nature, akin to the striking of a mallet on a percussion 
 
 ## Double track
 
-![Echo controls](/Screenshots/doubleTrack.png)
-*Button controls for the "double track" effect.*
+|![Button controls for the "double track" effect](/Screenshots/doubleTrack.png)|
+|:--:|
+|Button controls for the "double track" effect|
 
 Each sample has been recorded twice and can be mixed together for a "chorus" effect or panned for a stereo effect.
 
@@ -139,8 +149,9 @@ These effects are achieved using carefully crafted impulse responses. The echo e
 
 ### Echo
 
-![Echo controls](/Screenshots/echo.png)
-*Controls for the tape echo impulse response.*
+|![Controls for the tape echo impulse response](/Screenshots/echo.png)|
+|:--:|
+|Controls for the tape echo impulse response|
 
 Select from two distinctive echo options: the short echo, delivering a classic slapback effect, and the long echo, characterized by a slower decay and numerous repeats.
 
@@ -153,8 +164,9 @@ Select from two distinctive echo options: the short echo, delivering a classic s
 
 ### Reverb
 
-![Reverb controls](/Screenshots/reverb.png)
-*Controls for the room reverb impulse response.*
+|![Controls for the room reverb impulse response](/Screenshots/reverb.png)|
+|:--:|
+|Controls for the room reverb impulse response|
 
 You'll also find two reverb effects: the short reverb, evoking the intimacy of a small room, and the long reverb, enveloping your sound in the vastness of a spacious environment.
 
