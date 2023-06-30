@@ -282,41 +282,41 @@
 
 
 <!-- Drawbars -->
-      <control x="328" y="9" width="28" height="122" parameterName="16-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value=".5" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_brown_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="16" parameter="AMP_VOLUME" />
+      <control x="328" y="9" width="28" height="122" parameterName="16-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_brown.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="16" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
       </control>
-      <control x="358" y="9" width="28" height="122" parameterName="5_1-3-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value=".5" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_brown_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="5_1-3" parameter="AMP_VOLUME" />
+      <control x="358" y="9" width="28" height="122" parameterName="5_1-3-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value=".5" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_brown.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="5_1-3" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
       </control>
-      <control x="388" y="9" width="28" height="122" parameterName="8-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value=".5" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_white_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="8" parameter="AMP_VOLUME" />
+      <control x="388" y="9" width="28" height="122" parameterName="8-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_white.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="8" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
       </control>
-      <control x="418" y="9" width="28" height="122" parameterName="4-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_white_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="4" parameter="AMP_VOLUME" />
+      <control x="418" y="9" width="28" height="122" parameterName="4-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_white.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="4" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
       </control>
-      <control x="448" y="9" width="28" height="122" parameterName="2_2-3-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_brown_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="2_2-3" parameter="AMP_VOLUME" />
+      <control x="448" y="9" width="28" height="122" parameterName="2_2-3-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_brown.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="2_2-3" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
       </control>
-      <control x="478" y="9" width="28" height="122" parameterName="2-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_white_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="2" parameter="AMP_VOLUME" />
+      <control x="478" y="9" width="28" height="122" parameterName="2-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_white.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="2" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
       </control>
-      <control x="508" y="9" width="28" height="122" parameterName="1_3-5-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_brown_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="1_3-5" parameter="AMP_VOLUME" />
+      <control x="508" y="9" width="28" height="122" parameterName="1_3-5-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_brown.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="1_3-5" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
       </control>
-      <control x="538" y="9" width="28" height="122" parameterName="1_1-3-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_brown_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="1_1-3" parameter="AMP_VOLUME" />
+      <control x="538" y="9" width="28" height="122" parameterName="1_1-3-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_brown.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="1_1-3" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
       </control>
-      <control x="568" y="9" width="28" height="122" parameterName="1-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_white_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="1" parameter="AMP_VOLUME" />
+      <control x="568" y="9" width="28" height="122" parameterName="1-volume" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/drawbar_white.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="1" parameter="AMP_VOLUME" translationReversed="true" translation="linear" />
       </control>
 
       <!-- Attack curve -->
-      <control x="339" y="153" width="27" height="27" parameterName="attackCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="339" y="153" width="27" height="27" parameterName="attackCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" />
       </control>
 
       <!-- Key click -->
-      <control x="414" y="153" width="27" height="27" parameterName="keyClick" type="float" minValue="0" maxValue=".25" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="414" y="153" width="27" height="27" parameterName="keyClick" type="float" minValue="0" maxValue=".25" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="key-click" parameter="AMP_VOLUME" />
       </control>
 
@@ -465,7 +465,7 @@
       </button>
 
 <!-- Echo mix -->
-      <control x="632" y="153" width="27" height="27" parameterName="Echo" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="632" y="153" width="27" height="27" parameterName="Echo" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="effect" level="instrument" position="0" parameter="FX_MIX" factor="0.01"/>
       </control>
 
@@ -491,7 +491,7 @@
       </button>
 
 <!-- Reverb mix -->
-      <control x="763" y="153" width="27" height="27" parameterName="Reverb" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="763" y="153" width="27" height="27" parameterName="Reverb" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="effect" level="instrument" position="1" parameter="FX_MIX" factor="0.01"/>
       </control>
 

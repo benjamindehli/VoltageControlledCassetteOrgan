@@ -11,49 +11,49 @@
 
     
       <!-- Envelope -->
-      <control x="59" y="57" width="27" height="27" parameterName="attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="59" y="57" width="27" height="27" parameterName="attack" type="float" minValue="0" maxValue="2" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="group" position="0" parameter="ENV_ATTACK" />
         <binding type="amp" level="group" position="2" parameter="ENV_ATTACK" />
         <binding type="amp" level="group" position="4" parameter="ENV_ATTACK" />
       </control>
-      <control x="109" y="57" width="27" height="27" parameterName="decay" type="float" minValue="0.02" maxValue="3" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="109" y="57" width="27" height="27" parameterName="decay" type="float" minValue="0.02" maxValue="3" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="group" position="0" parameter="ENV_DECAY" />
         <binding type="amp" level="group" position="2" parameter="ENV_DECAY" />
         <binding type="amp" level="group" position="4" parameter="ENV_DECAY" />
       </control>
-      <control x="159" y="57" width="27" height="27" parameterName="sustain" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="159" y="57" width="27" height="27" parameterName="sustain" type="float" minValue="0" maxValue="1" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="group" position="0" parameter="ENV_SUSTAIN" />
         <binding type="amp" level="group" position="2" parameter="ENV_SUSTAIN" />
         <binding type="amp" level="group" position="4" parameter="ENV_SUSTAIN" />
       </control>
-      <control x="208" y="57" width="27" height="27" parameterName="release" type="float" minValue="0.07" maxValue="4" textColor="FF000000" value="0.07" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="208" y="57" width="27" height="27" parameterName="release" type="float" minValue="0.07" maxValue="4" textColor="FF000000" value="0.07" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="group" position="0" parameter="ENV_RELEASE" />
         <binding type="amp" level="group" position="2" parameter="ENV_RELEASE" />
         <binding type="amp" level="group" position="4" parameter="ENV_RELEASE" />
       </control>
 
       <!-- Amplitude modulation -->
-      <control x="322" y="57" width="27" height="27" parameterName="lfoRate" type="float" minValue="0" maxValue="9" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="322" y="57" width="27" height="27" parameterName="lfoRate" type="float" minValue="0" maxValue="9" textColor="FF000000" value="2" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding level="instrument" type="modulator" position="0" parameter="FREQUENCY" />
       </control>
-      <control x="372" y="57" width="27" height="27" parameterName="lfoDepth" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="372" y="57" width="27" height="27" parameterName="lfoDepth" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding level="instrument" type="modulator" position="0" parameter="MOD_AMOUNT" />
       </control>
 
 
       <!-- Envelope curve -->
-      <control x="59" y="121" width="27" height="27" parameterName="attackCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="59" y="121" width="27" height="27" parameterName="attackCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" />
       </control>
-      <control x="133" y="121" width="27" height="27" parameterName="decayCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="133" y="121" width="27" height="27" parameterName="decayCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="instrument" parameter="ENV_DECAY_CURVE" />
       </control>
-      <control x="208" y="121" width="27" height="27" parameterName="releaseCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="208" y="121" width="27" height="27" parameterName="releaseCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="instrument" parameter="ENV_RELEASE_CURVE" />
       </control>
 
       <!-- Key click -->
-      <control x="346" y="121" width="27" height="27" parameterName="keyClick" type="float" minValue="0" maxValue=".25" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="346" y="121" width="27" height="27" parameterName="keyClick" type="float" minValue="0" maxValue=".25" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="key-click" parameter="AMP_VOLUME" />
       </control>
 
@@ -122,7 +122,7 @@
       </button>
 
 <!-- Echo mix -->
-      <control x="542" y="57" width="27" height="27" parameterName="Echo" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="542" y="57" width="27" height="27" parameterName="Echo" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="effect" level="instrument" position="0" parameter="FX_MIX" factor="0.01"/>
       </control>
 
@@ -148,7 +148,7 @@
       </button>
 
 <!-- Reverb mix -->
-      <control x="542" y="121" width="27" height="27" parameterName="Reverb" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big_full.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="542" y="121" width="27" height="27" parameterName="Reverb" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="effect" level="instrument" position="1" parameter="FX_MIX" factor="0.01"/>
       </control>
 
