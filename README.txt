@@ -1,12 +1,18 @@
-# Voltage Controlled Cassette Organ - Version: [1.0]
+# Voltage Controlled Cassette Organ - Version: [1.1]
 
-Date: 2023-06-26
+Date: 2023-07-03
 Name: Benjamin Dehli
 Profile: pianobook.co.uk/profile/benjamindehli
 
 ## Included formats
 
 - Decent Sampler
+
+## Release notes
+
+### Version 1.1
+
+- Fix mouse drag direction for drawbars
 
 ## The Story
 
@@ -81,8 +87,6 @@ The LFO Rate and LFO Depth knobs enable you to modulate the amplitude of the dra
 ### Drawbars
 
 Unleash the power of the nine drawbars to shape your organ's tone with precision. Each drawbar controls the amplitude of a specific harmonic overtone, offering you unparalleled control over the instrument's harmonic richness.
-
-Unfortunately DecentSampler doesn't support reversed/inverted vertical control for drawbars which means you have to click and drag the mouse upwards to make the drawbar go downwards. I have however submitted a feature request for this.
 
 ### Key click
 
