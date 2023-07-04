@@ -45,10 +45,10 @@
       <control x="59" y="121" width="27" height="27" parameterName="attackCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="instrument" parameter="ENV_ATTACK_CURVE" />
       </control>
-      <control x="133" y="121" width="27" height="27" parameterName="decayCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="133" y="121" width="27" height="27" parameterName="decayCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="100" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="instrument" parameter="ENV_DECAY_CURVE" />
       </control>
-      <control x="208" y="121" width="27" height="27" parameterName="releaseCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="208" y="121" width="27" height="27" parameterName="releaseCurve" type="float" minValue="-100" maxValue="100" textColor="FF000000" value="100" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="instrument" parameter="ENV_RELEASE_CURVE" />
       </control>
 
