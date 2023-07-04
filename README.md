@@ -1,6 +1,6 @@
-# Voltage Controlled Cassette Organ - Version: [1.1]
+# Voltage Controlled Cassette Organ - Version: [1.2]
 
-Date: 2023-07-03
+Date: 2023-07-05
 Name: Benjamin Dehli
 Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/profile/benjamindehli/)
 
@@ -9,6 +9,14 @@ Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/pro
 - Decent Sampler
 
 ## Release notes
+
+### Version 1.2
+
+- Added "All Drawbars (Lite)" preset
+  - No "Double track" feature
+  - Shares samples between drawbars to reduce sample count
+- Set default decay curve and release curve for "Single Drawbar" preset to exponential
+- Minor GUI adjustments
 
 ### Version 1.1
 
