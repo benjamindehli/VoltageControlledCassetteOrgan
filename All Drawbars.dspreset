@@ -497,9 +497,6 @@
 
 
     </tab>
-    <keyboard>
-      <color loNote="36" hiNote="96" color="FFb7b5ae"/>
-    </keyboard>
   </ui>
   <groups attack="0.000" attackCurve="50" decayCurve="100" releaseCurve="100" decay="0" sustain="1" release="0.07" volume=".5" ampVelTrack="0">
     <group tags="16,A">
