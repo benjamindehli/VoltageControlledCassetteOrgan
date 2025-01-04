@@ -1,0 +1,6 @@
+Voltage Controlled Cassette Organ
+Version: 1.3
+Date: 2025-01-04
+Creator: Benjamin Dehli / Dehli Musikk
+
+https://www.dehlimusikk.no/
