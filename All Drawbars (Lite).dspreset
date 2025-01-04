@@ -873,7 +873,7 @@
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/2/2_5B.wav"    sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/2/2_6C.wav"    sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
     </group>
-    <group tags="key-click,A" release="1.00">
+    <group tags="key-click,A" ampEnvEnabled="false">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/KeyClick/KeyClick_1C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="37" hiNote="37" rootNote="37" path="Samples/KeyClick/KeyClick_1C#.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="38" hiNote="38" rootNote="38" path="Samples/KeyClick/KeyClick_1D.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
