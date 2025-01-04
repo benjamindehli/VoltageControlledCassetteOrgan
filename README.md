@@ -1,8 +1,10 @@
-# Voltage Controlled Cassette Organ - Version: [1.2]
+# Voltage Controlled Cassette Organ - Version: [1.3]
 
-Date: 2023-07-05
+Date: 2025-01-04
+
 Name: Benjamin Dehli
-Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/profile/benjamindehli/)
+
+Profile: [store.dehlimusikk.no][Gumroad profile]
 
 ## Included formats
 
@@ -10,7 +12,11 @@ Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/pro
 
 ## Release notes
 
-### Version 1.2
+### Version 1.3 (2025-01-04)
+
+- Removed amplitude envelope for one shot samples
+
+### Version 1.2 (2023-07-05)
 
 - Added "All Drawbars (Lite)" preset
   - No "Double track" feature
@@ -18,9 +24,13 @@ Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/pro
 - Set default decay curve and release curve for "Single Drawbar" preset to exponential
 - Minor GUI adjustments
 
-### Version 1.1
+### Version 1.1 (2023-07-03)
 
 - Fix mouse drag direction for drawbars
+
+### Version 1.0 (2023-06-26)
+
+- First version released
 
 ## The Story
 
@@ -190,3 +200,5 @@ You'll also find two reverb effects: the short reverb, evoking the intimacy of a
   - Switches between a short/small room reverb and a long/big room reverb
 - Mix
   - Mix between direct signal and reverb signal
+
+[Gumroad profile]: https://store.dehlimusikk.no/
