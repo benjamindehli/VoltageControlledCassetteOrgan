@@ -5376,6 +5376,8 @@
     "height": 375,
     "layoutMode": "relative",
     "bgMode": "top_left",
+    "whiteKeyTint": "30ffcc00",
+    "blackKeyTint": "none",
     "tabs": [
       {
         "name": "main",
@@ -6290,19 +6292,9 @@
     "keyboard": {
       "colors": [
         {
-          "loNote": 0,
-          "hiNote": 23,
-          "color": "FF000000"
-        },
-        {
           "loNote": 24,
           "hiNote": 120,
-          "color": "FFFBFCDD"
-        },
-        {
-          "loNote": 121,
-          "hiNote": 127,
-          "color": "FF000000"
+          "color": "none"
         }
       ]
     }
