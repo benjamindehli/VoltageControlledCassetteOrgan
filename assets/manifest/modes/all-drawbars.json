@@ -16763,16 +16763,16 @@
       "type": "convolution",
       "enabled": false,
       "mix": 0.0,
-      "ir": "ir:echo-short",
-      "normalizeIr": false
+      "outputLevel": 6.0,
+      "ir": "ir:echo-short"
     },
     {
       "id": "fx_convolution_2",
       "type": "convolution",
       "enabled": false,
       "mix": 0.0,
-      "ir": "ir:reverb-short",
-      "normalizeIr": false
+      "outputLevel": 6.0,
+      "ir": "ir:reverb-short"
     }
   ],
   "modulators": [

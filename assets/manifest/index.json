@@ -2,7 +2,7 @@
   "schema": 1,
   "format": "dmse-manifest",
   "library": "VoltageControlledCassetteOrgan",
-  "gainDb": -13.0,
+  "gainDb": -18.0,
   "modes": [
     "all-drawbars-lite",
     "all-drawbars",
