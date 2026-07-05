@@ -21217,6 +21217,20 @@
           "color": "none"
         }
       ]
-    }
+    },
+    "buttonLinks": [
+      {
+        "fromButton": 1,
+        "fromState": 1,
+        "toButton": 0,
+        "toState": 1
+      },
+      {
+        "fromButton": 0,
+        "fromState": 0,
+        "toButton": 1,
+        "toState": 0
+      }
+    ]
   }
 }
