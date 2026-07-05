@@ -61,21 +61,8 @@ else()
                     "Generate them with the dmse_convert target first.")
 endif()
 
-# Samples are shipped as a memory-mapped pack (converter run with --pack-samples), NOT
-# compiled into the binary — a 1.4 GB library would otherwise make a 1.5 GB executable
-# (slow launch, high RAM). Install the pack into a shared support folder the plugin reads
-# at runtime (matches VCCO_SAMPLE_DIR in source/Plugin.cpp). One copy serves all formats.
-if(APPLE)
-    set(VCCO_PACK_DEST "$ENV{HOME}/Library/Application Support/DehliMusikk/VoltageControlledCassetteOrgan")
-elseif(WIN32)
-    set(VCCO_PACK_DEST "$ENV{APPDATA}/DehliMusikk/VoltageControlledCassetteOrgan")
-else()
-    set(VCCO_PACK_DEST "$ENV{HOME}/.local/share/DehliMusikk/VoltageControlledCassetteOrgan")
-endif()
-
-add_custom_command(TARGET VoltageControlledCassetteOrgan POST_BUILD
-    COMMAND ${CMAKE_COMMAND}
-            "-DSRCDIR=${CMAKE_CURRENT_SOURCE_DIR}/assets/samples"
-            "-DDSTDIR=${VCCO_PACK_DEST}"
-            -P "${CMAKE_SOURCE_DIR}/packaging/pack_install.cmake"
-    VERBATIM)
+# Samples ship as a memory-mapped pack (default), NOT compiled into the binary — a 1.4 GB
+# library would otherwise make a 1.5 GB executable (slow launch, high RAM). Install the pack
+# into the shared support folder the engine reads (keyed by product name). One copy serves
+# all formats.
+dmse_setup_plugin(VoltageControlledCassetteOrgan "Voltage Controlled Cassette Organ")
