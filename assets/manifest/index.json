@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "format": "dmse-manifest",
+  "library": "VoltageControlledCassetteOrgan",
+  "gainDb": -18.0,
+  "modes": [
+    "all-drawbars-lite",
+    "all-drawbars",
+    "single-drawbar"
+  ]
+}
