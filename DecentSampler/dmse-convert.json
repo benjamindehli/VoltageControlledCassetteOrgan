@@ -1,0 +1,15 @@
+{
+    "gain": -18,
+    "normalizeIr": true,
+    "reverbGain": 6,
+    "whiteKeyTint": "30ffcc00",
+    "blackKeyTint": "none",
+    "dropGroupTags": ["A2"],
+    "doubleTrackBoostTag": "A",
+    "doubleTrackStereoBoost": 1.8,
+    "keyboardColors": {
+        "All Drawbars": [{ "loNote": 36, "hiNote": 96, "color": "none" }],
+        "All Drawbars (Lite)": [{ "loNote": 36, "hiNote": 96, "color": "none" }],
+        "Single Drawbar": [{ "loNote": 24, "hiNote": 120, "color": "none" }]
+    }
+}
