@@ -8,7 +8,7 @@
     "volume": 0.5,
     "velTrack": 0.0,
     "enabled": true,
-    "attackCurve": 50.0,
+    "attackCurve": 0.0,
     "decayCurve": 100.0,
     "releaseCurve": 100.0
   },
@@ -5818,7 +5818,7 @@
             "label": "16-attack",
             "valueType": "float",
             "min": 0.0,
-            "max": 2.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -5835,6 +5835,9 @@
                 "level": "group",
                 "targetId": "grp_0",
                 "parameter": "ENV_ATTACK",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 2.0,
                 "groupIndex": 0,
                 "position": 0
               }
@@ -5850,9 +5853,9 @@
             },
             "label": "16-decay",
             "valueType": "float",
-            "min": 0.02,
-            "max": 3.0,
-            "value": 2.0,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 6.5,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -5868,6 +5871,9 @@
                 "level": "group",
                 "targetId": "grp_0",
                 "parameter": "ENV_DECAY",
+                "translation": "linear",
+                "translationOutputMin": 0.02,
+                "translationOutputMax": 3.0,
                 "groupIndex": 0,
                 "position": 0
               }
@@ -5884,8 +5890,8 @@
             "label": "16-sustain",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 10.0,
+            "value": 10.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -5901,6 +5907,9 @@
                 "level": "group",
                 "targetId": "grp_0",
                 "parameter": "ENV_SUSTAIN",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "groupIndex": 0,
                 "position": 0
               }
@@ -5916,9 +5925,9 @@
             },
             "label": "16-release",
             "valueType": "float",
-            "min": 0.07,
-            "max": 4.0,
-            "value": 0.07,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -5934,6 +5943,9 @@
                 "level": "group",
                 "targetId": "grp_0",
                 "parameter": "ENV_RELEASE",
+                "translation": "linear",
+                "translationOutputMin": 0.07,
+                "translationOutputMax": 4.0,
                 "groupIndex": 0,
                 "position": 0
               }
@@ -5950,8 +5962,8 @@
             "label": "16-lfoRate",
             "valueType": "float",
             "min": 0.0,
-            "max": 9.0,
-            "value": 2.0,
+            "max": 10.0,
+            "value": 2.22,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -5967,6 +5979,9 @@
                 "level": "instrument",
                 "targetId": "mod_0",
                 "parameter": "FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 9.0,
                 "position": 0
               }
             ]
@@ -5982,7 +5997,7 @@
             "label": "16-lfoDepth",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -5999,6 +6014,9 @@
                 "level": "instrument",
                 "targetId": "mod_0",
                 "parameter": "MOD_AMOUNT",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "position": 0
               }
             ]
@@ -6014,7 +6032,7 @@
             "label": "5_1-3-attack",
             "valueType": "float",
             "min": 0.0,
-            "max": 2.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -6031,6 +6049,9 @@
                 "level": "group",
                 "targetId": "grp_1",
                 "parameter": "ENV_ATTACK",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 2.0,
                 "groupIndex": 1,
                 "position": 1
               }
@@ -6046,9 +6067,9 @@
             },
             "label": "5_1-3-decay",
             "valueType": "float",
-            "min": 0.02,
-            "max": 3.0,
-            "value": 2.0,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 6.5,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6064,6 +6085,9 @@
                 "level": "group",
                 "targetId": "grp_1",
                 "parameter": "ENV_DECAY",
+                "translation": "linear",
+                "translationOutputMin": 0.02,
+                "translationOutputMax": 3.0,
                 "groupIndex": 1,
                 "position": 1
               }
@@ -6080,8 +6104,8 @@
             "label": "5_1-3-sustain",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 10.0,
+            "value": 10.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6097,6 +6121,9 @@
                 "level": "group",
                 "targetId": "grp_1",
                 "parameter": "ENV_SUSTAIN",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "groupIndex": 1,
                 "position": 1
               }
@@ -6112,9 +6139,9 @@
             },
             "label": "5_1-3-release",
             "valueType": "float",
-            "min": 0.07,
-            "max": 4.0,
-            "value": 0.07,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6130,6 +6157,9 @@
                 "level": "group",
                 "targetId": "grp_1",
                 "parameter": "ENV_RELEASE",
+                "translation": "linear",
+                "translationOutputMin": 0.07,
+                "translationOutputMax": 4.0,
                 "groupIndex": 1,
                 "position": 1
               }
@@ -6146,8 +6176,8 @@
             "label": "5_1-3-lfoRate",
             "valueType": "float",
             "min": 0.0,
-            "max": 9.0,
-            "value": 2.0,
+            "max": 10.0,
+            "value": 2.22,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6163,6 +6193,9 @@
                 "level": "instrument",
                 "targetId": "mod_1",
                 "parameter": "FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 9.0,
                 "position": 1
               }
             ]
@@ -6178,7 +6211,7 @@
             "label": "5_1-3-lfoDepth",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -6195,6 +6228,9 @@
                 "level": "instrument",
                 "targetId": "mod_1",
                 "parameter": "MOD_AMOUNT",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "position": 1
               }
             ]
@@ -6210,7 +6246,7 @@
             "label": "8-attack",
             "valueType": "float",
             "min": 0.0,
-            "max": 2.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -6227,6 +6263,9 @@
                 "level": "group",
                 "targetId": "grp_2",
                 "parameter": "ENV_ATTACK",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 2.0,
                 "groupIndex": 2,
                 "position": 2
               }
@@ -6242,9 +6281,9 @@
             },
             "label": "8-decay",
             "valueType": "float",
-            "min": 0.02,
-            "max": 3.0,
-            "value": 2.0,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 6.5,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6260,6 +6299,9 @@
                 "level": "group",
                 "targetId": "grp_2",
                 "parameter": "ENV_DECAY",
+                "translation": "linear",
+                "translationOutputMin": 0.02,
+                "translationOutputMax": 3.0,
                 "groupIndex": 2,
                 "position": 2
               }
@@ -6276,8 +6318,8 @@
             "label": "8-sustain",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 10.0,
+            "value": 10.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6293,6 +6335,9 @@
                 "level": "group",
                 "targetId": "grp_2",
                 "parameter": "ENV_SUSTAIN",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "groupIndex": 2,
                 "position": 2
               }
@@ -6308,9 +6353,9 @@
             },
             "label": "8-release",
             "valueType": "float",
-            "min": 0.07,
-            "max": 4.0,
-            "value": 0.07,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6326,6 +6371,9 @@
                 "level": "group",
                 "targetId": "grp_2",
                 "parameter": "ENV_RELEASE",
+                "translation": "linear",
+                "translationOutputMin": 0.07,
+                "translationOutputMax": 4.0,
                 "groupIndex": 2,
                 "position": 2
               }
@@ -6342,8 +6390,8 @@
             "label": "8-lfoRate",
             "valueType": "float",
             "min": 0.0,
-            "max": 9.0,
-            "value": 2.0,
+            "max": 10.0,
+            "value": 2.22,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6359,6 +6407,9 @@
                 "level": "instrument",
                 "targetId": "mod_2",
                 "parameter": "FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 9.0,
                 "position": 2
               }
             ]
@@ -6374,7 +6425,7 @@
             "label": "8-lfoDepth",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -6391,6 +6442,9 @@
                 "level": "instrument",
                 "targetId": "mod_2",
                 "parameter": "MOD_AMOUNT",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "position": 2
               }
             ]
@@ -6406,7 +6460,7 @@
             "label": "4-attack",
             "valueType": "float",
             "min": 0.0,
-            "max": 2.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -6423,6 +6477,9 @@
                 "level": "group",
                 "targetId": "grp_3",
                 "parameter": "ENV_ATTACK",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 2.0,
                 "groupIndex": 3,
                 "position": 3
               }
@@ -6438,9 +6495,9 @@
             },
             "label": "4-decay",
             "valueType": "float",
-            "min": 0.02,
-            "max": 3.0,
-            "value": 2.0,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 6.5,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6456,6 +6513,9 @@
                 "level": "group",
                 "targetId": "grp_3",
                 "parameter": "ENV_DECAY",
+                "translation": "linear",
+                "translationOutputMin": 0.02,
+                "translationOutputMax": 3.0,
                 "groupIndex": 3,
                 "position": 3
               }
@@ -6472,8 +6532,8 @@
             "label": "4-sustain",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 10.0,
+            "value": 10.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6489,6 +6549,9 @@
                 "level": "group",
                 "targetId": "grp_3",
                 "parameter": "ENV_SUSTAIN",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "groupIndex": 3,
                 "position": 3
               }
@@ -6504,9 +6567,9 @@
             },
             "label": "4-release",
             "valueType": "float",
-            "min": 0.07,
-            "max": 4.0,
-            "value": 0.07,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6522,6 +6585,9 @@
                 "level": "group",
                 "targetId": "grp_3",
                 "parameter": "ENV_RELEASE",
+                "translation": "linear",
+                "translationOutputMin": 0.07,
+                "translationOutputMax": 4.0,
                 "groupIndex": 3,
                 "position": 3
               }
@@ -6538,8 +6604,8 @@
             "label": "4-lfoRate",
             "valueType": "float",
             "min": 0.0,
-            "max": 9.0,
-            "value": 2.0,
+            "max": 10.0,
+            "value": 2.22,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6555,6 +6621,9 @@
                 "level": "instrument",
                 "targetId": "mod_3",
                 "parameter": "FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 9.0,
                 "position": 3
               }
             ]
@@ -6570,7 +6639,7 @@
             "label": "4-lfoDepth",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -6587,6 +6656,9 @@
                 "level": "instrument",
                 "targetId": "mod_3",
                 "parameter": "MOD_AMOUNT",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "position": 3
               }
             ]
@@ -6602,7 +6674,7 @@
             "label": "2_2-3-attack",
             "valueType": "float",
             "min": 0.0,
-            "max": 2.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -6619,6 +6691,9 @@
                 "level": "group",
                 "targetId": "grp_4",
                 "parameter": "ENV_ATTACK",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 2.0,
                 "groupIndex": 4,
                 "position": 4
               }
@@ -6634,9 +6709,9 @@
             },
             "label": "2_2-3-decay",
             "valueType": "float",
-            "min": 0.02,
-            "max": 3.0,
-            "value": 2.0,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 6.5,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6652,6 +6727,9 @@
                 "level": "group",
                 "targetId": "grp_4",
                 "parameter": "ENV_DECAY",
+                "translation": "linear",
+                "translationOutputMin": 0.02,
+                "translationOutputMax": 3.0,
                 "groupIndex": 4,
                 "position": 4
               }
@@ -6668,8 +6746,8 @@
             "label": "2_2-3-sustain",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 10.0,
+            "value": 10.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6685,6 +6763,9 @@
                 "level": "group",
                 "targetId": "grp_4",
                 "parameter": "ENV_SUSTAIN",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "groupIndex": 4,
                 "position": 4
               }
@@ -6700,9 +6781,9 @@
             },
             "label": "2_2-3-release",
             "valueType": "float",
-            "min": 0.07,
-            "max": 4.0,
-            "value": 0.07,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6718,6 +6799,9 @@
                 "level": "group",
                 "targetId": "grp_4",
                 "parameter": "ENV_RELEASE",
+                "translation": "linear",
+                "translationOutputMin": 0.07,
+                "translationOutputMax": 4.0,
                 "groupIndex": 4,
                 "position": 4
               }
@@ -6734,8 +6818,8 @@
             "label": "2_2-3-lfoRate",
             "valueType": "float",
             "min": 0.0,
-            "max": 9.0,
-            "value": 2.0,
+            "max": 10.0,
+            "value": 2.22,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6751,6 +6835,9 @@
                 "level": "instrument",
                 "targetId": "mod_4",
                 "parameter": "FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 9.0,
                 "position": 4
               }
             ]
@@ -6766,7 +6853,7 @@
             "label": "2_2-3-lfoDepth",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -6783,6 +6870,9 @@
                 "level": "instrument",
                 "targetId": "mod_4",
                 "parameter": "MOD_AMOUNT",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "position": 4
               }
             ]
@@ -6798,7 +6888,7 @@
             "label": "2-attack",
             "valueType": "float",
             "min": 0.0,
-            "max": 2.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -6815,6 +6905,9 @@
                 "level": "group",
                 "targetId": "grp_5",
                 "parameter": "ENV_ATTACK",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 2.0,
                 "groupIndex": 5,
                 "position": 5
               }
@@ -6830,9 +6923,9 @@
             },
             "label": "2-decay",
             "valueType": "float",
-            "min": 0.02,
-            "max": 3.0,
-            "value": 2.0,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 6.5,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6848,6 +6941,9 @@
                 "level": "group",
                 "targetId": "grp_5",
                 "parameter": "ENV_DECAY",
+                "translation": "linear",
+                "translationOutputMin": 0.02,
+                "translationOutputMax": 3.0,
                 "groupIndex": 5,
                 "position": 5
               }
@@ -6864,8 +6960,8 @@
             "label": "2-sustain",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 10.0,
+            "value": 10.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6881,6 +6977,9 @@
                 "level": "group",
                 "targetId": "grp_5",
                 "parameter": "ENV_SUSTAIN",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "groupIndex": 5,
                 "position": 5
               }
@@ -6896,9 +6995,9 @@
             },
             "label": "2-release",
             "valueType": "float",
-            "min": 0.07,
-            "max": 4.0,
-            "value": 0.07,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6914,6 +7013,9 @@
                 "level": "group",
                 "targetId": "grp_5",
                 "parameter": "ENV_RELEASE",
+                "translation": "linear",
+                "translationOutputMin": 0.07,
+                "translationOutputMax": 4.0,
                 "groupIndex": 5,
                 "position": 5
               }
@@ -6930,8 +7032,8 @@
             "label": "2-lfoRate",
             "valueType": "float",
             "min": 0.0,
-            "max": 9.0,
-            "value": 2.0,
+            "max": 10.0,
+            "value": 2.22,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -6947,6 +7049,9 @@
                 "level": "instrument",
                 "targetId": "mod_5",
                 "parameter": "FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 9.0,
                 "position": 5
               }
             ]
@@ -6962,7 +7067,7 @@
             "label": "2-lfoDepth",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -6979,6 +7084,9 @@
                 "level": "instrument",
                 "targetId": "mod_5",
                 "parameter": "MOD_AMOUNT",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "position": 5
               }
             ]
@@ -6994,7 +7102,7 @@
             "label": "1_3-5-attack",
             "valueType": "float",
             "min": 0.0,
-            "max": 2.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -7011,6 +7119,9 @@
                 "level": "group",
                 "targetId": "grp_6",
                 "parameter": "ENV_ATTACK",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 2.0,
                 "groupIndex": 6,
                 "position": 6
               }
@@ -7026,9 +7137,9 @@
             },
             "label": "1_3-5-decay",
             "valueType": "float",
-            "min": 0.02,
-            "max": 3.0,
-            "value": 2.0,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 6.5,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7044,6 +7155,9 @@
                 "level": "group",
                 "targetId": "grp_6",
                 "parameter": "ENV_DECAY",
+                "translation": "linear",
+                "translationOutputMin": 0.02,
+                "translationOutputMax": 3.0,
                 "groupIndex": 6,
                 "position": 6
               }
@@ -7060,8 +7174,8 @@
             "label": "1_3-5-sustain",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 10.0,
+            "value": 10.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7077,6 +7191,9 @@
                 "level": "group",
                 "targetId": "grp_6",
                 "parameter": "ENV_SUSTAIN",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "groupIndex": 6,
                 "position": 6
               }
@@ -7092,9 +7209,9 @@
             },
             "label": "1_3-5-release",
             "valueType": "float",
-            "min": 0.07,
-            "max": 4.0,
-            "value": 0.07,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7110,6 +7227,9 @@
                 "level": "group",
                 "targetId": "grp_6",
                 "parameter": "ENV_RELEASE",
+                "translation": "linear",
+                "translationOutputMin": 0.07,
+                "translationOutputMax": 4.0,
                 "groupIndex": 6,
                 "position": 6
               }
@@ -7126,8 +7246,8 @@
             "label": "1_3-5-lfoRate",
             "valueType": "float",
             "min": 0.0,
-            "max": 9.0,
-            "value": 2.0,
+            "max": 10.0,
+            "value": 2.22,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7143,6 +7263,9 @@
                 "level": "instrument",
                 "targetId": "mod_6",
                 "parameter": "FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 9.0,
                 "position": 6
               }
             ]
@@ -7158,7 +7281,7 @@
             "label": "1_3-5-lfoDepth",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -7175,6 +7298,9 @@
                 "level": "instrument",
                 "targetId": "mod_6",
                 "parameter": "MOD_AMOUNT",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "position": 6
               }
             ]
@@ -7190,7 +7316,7 @@
             "label": "1_1-3-attack",
             "valueType": "float",
             "min": 0.0,
-            "max": 2.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -7207,6 +7333,9 @@
                 "level": "group",
                 "targetId": "grp_7",
                 "parameter": "ENV_ATTACK",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 2.0,
                 "groupIndex": 7,
                 "position": 7
               }
@@ -7222,9 +7351,9 @@
             },
             "label": "1_1-3-decay",
             "valueType": "float",
-            "min": 0.02,
-            "max": 3.0,
-            "value": 2.0,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 6.5,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7240,6 +7369,9 @@
                 "level": "group",
                 "targetId": "grp_7",
                 "parameter": "ENV_DECAY",
+                "translation": "linear",
+                "translationOutputMin": 0.02,
+                "translationOutputMax": 3.0,
                 "groupIndex": 7,
                 "position": 7
               }
@@ -7256,8 +7388,8 @@
             "label": "1_1-3-sustain",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 10.0,
+            "value": 10.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7273,6 +7405,9 @@
                 "level": "group",
                 "targetId": "grp_7",
                 "parameter": "ENV_SUSTAIN",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "groupIndex": 7,
                 "position": 7
               }
@@ -7288,9 +7423,9 @@
             },
             "label": "1_1-3-release",
             "valueType": "float",
-            "min": 0.07,
-            "max": 4.0,
-            "value": 0.07,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7306,6 +7441,9 @@
                 "level": "group",
                 "targetId": "grp_7",
                 "parameter": "ENV_RELEASE",
+                "translation": "linear",
+                "translationOutputMin": 0.07,
+                "translationOutputMax": 4.0,
                 "groupIndex": 7,
                 "position": 7
               }
@@ -7322,8 +7460,8 @@
             "label": "1_1-3-lfoRate",
             "valueType": "float",
             "min": 0.0,
-            "max": 9.0,
-            "value": 2.0,
+            "max": 10.0,
+            "value": 2.22,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7339,6 +7477,9 @@
                 "level": "instrument",
                 "targetId": "mod_7",
                 "parameter": "FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 9.0,
                 "position": 7
               }
             ]
@@ -7354,7 +7495,7 @@
             "label": "1_1-3-lfoDepth",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -7371,6 +7512,9 @@
                 "level": "instrument",
                 "targetId": "mod_7",
                 "parameter": "MOD_AMOUNT",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "position": 7
               }
             ]
@@ -7386,7 +7530,7 @@
             "label": "1-attack",
             "valueType": "float",
             "min": 0.0,
-            "max": 2.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -7403,6 +7547,9 @@
                 "level": "group",
                 "targetId": "grp_8",
                 "parameter": "ENV_ATTACK",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 2.0,
                 "groupIndex": 8,
                 "position": 8
               }
@@ -7418,9 +7565,9 @@
             },
             "label": "1-decay",
             "valueType": "float",
-            "min": 0.02,
-            "max": 3.0,
-            "value": 2.0,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 6.5,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7436,6 +7583,9 @@
                 "level": "group",
                 "targetId": "grp_8",
                 "parameter": "ENV_DECAY",
+                "translation": "linear",
+                "translationOutputMin": 0.02,
+                "translationOutputMax": 3.0,
                 "groupIndex": 8,
                 "position": 8
               }
@@ -7452,8 +7602,8 @@
             "label": "1-sustain",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 10.0,
+            "value": 10.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7469,6 +7619,9 @@
                 "level": "group",
                 "targetId": "grp_8",
                 "parameter": "ENV_SUSTAIN",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "groupIndex": 8,
                 "position": 8
               }
@@ -7484,9 +7637,9 @@
             },
             "label": "1-release",
             "valueType": "float",
-            "min": 0.07,
-            "max": 4.0,
-            "value": 0.07,
+            "min": 0.0,
+            "max": 10.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7502,6 +7655,9 @@
                 "level": "group",
                 "targetId": "grp_8",
                 "parameter": "ENV_RELEASE",
+                "translation": "linear",
+                "translationOutputMin": 0.07,
+                "translationOutputMax": 4.0,
                 "groupIndex": 8,
                 "position": 8
               }
@@ -7518,8 +7674,8 @@
             "label": "1-lfoRate",
             "valueType": "float",
             "min": 0.0,
-            "max": 9.0,
-            "value": 2.0,
+            "max": 10.0,
+            "value": 2.22,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7535,6 +7691,9 @@
                 "level": "instrument",
                 "targetId": "mod_8",
                 "parameter": "FREQUENCY",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 9.0,
                 "position": 8
               }
             ]
@@ -7550,7 +7709,7 @@
             "label": "1-lfoDepth",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -7567,6 +7726,9 @@
                 "level": "instrument",
                 "targetId": "mod_8",
                 "parameter": "MOD_AMOUNT",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 1.0,
                 "position": 8
               }
             ]
@@ -7582,8 +7744,8 @@
             "label": "16-volume",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 0.0,
+            "max": 8.0,
+            "value": 8.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7591,7 +7753,7 @@
               "numFrames": 61,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 100.0,
+            "mouseDragSensitivity": -100.0,
             "controlIndex": 54,
             "bindings": [
               {
@@ -7600,7 +7762,9 @@
                 "identifier": "16",
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
-                "translation": "linear"
+                "translation": "linear",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -7615,8 +7779,8 @@
             "label": "5_1-3-volume",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 0.5,
+            "max": 8.0,
+            "value": 4.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7624,7 +7788,7 @@
               "numFrames": 61,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 100.0,
+            "mouseDragSensitivity": -100.0,
             "controlIndex": 55,
             "bindings": [
               {
@@ -7633,7 +7797,9 @@
                 "identifier": "5_1-3",
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
-                "translation": "linear"
+                "translation": "linear",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -7648,8 +7814,8 @@
             "label": "8-volume",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 0.0,
+            "max": 8.0,
+            "value": 8.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7657,7 +7823,7 @@
               "numFrames": 61,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 100.0,
+            "mouseDragSensitivity": -100.0,
             "controlIndex": 56,
             "bindings": [
               {
@@ -7666,7 +7832,9 @@
                 "identifier": "8",
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
-                "translation": "linear"
+                "translation": "linear",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -7681,8 +7849,8 @@
             "label": "4-volume",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 8.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7690,7 +7858,7 @@
               "numFrames": 61,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 100.0,
+            "mouseDragSensitivity": -100.0,
             "controlIndex": 57,
             "bindings": [
               {
@@ -7699,7 +7867,9 @@
                 "identifier": "4",
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
-                "translation": "linear"
+                "translation": "linear",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -7714,8 +7884,8 @@
             "label": "2_2-3-volume",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 8.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7723,7 +7893,7 @@
               "numFrames": 61,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 100.0,
+            "mouseDragSensitivity": -100.0,
             "controlIndex": 58,
             "bindings": [
               {
@@ -7732,7 +7902,9 @@
                 "identifier": "2_2-3",
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
-                "translation": "linear"
+                "translation": "linear",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -7747,8 +7919,8 @@
             "label": "2-volume",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 8.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7756,7 +7928,7 @@
               "numFrames": 61,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 100.0,
+            "mouseDragSensitivity": -100.0,
             "controlIndex": 59,
             "bindings": [
               {
@@ -7765,7 +7937,9 @@
                 "identifier": "2",
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
-                "translation": "linear"
+                "translation": "linear",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -7780,8 +7954,8 @@
             "label": "1_3-5-volume",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 8.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7789,7 +7963,7 @@
               "numFrames": 61,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 100.0,
+            "mouseDragSensitivity": -100.0,
             "controlIndex": 60,
             "bindings": [
               {
@@ -7798,7 +7972,9 @@
                 "identifier": "1_3-5",
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
-                "translation": "linear"
+                "translation": "linear",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -7813,8 +7989,8 @@
             "label": "1_1-3-volume",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 8.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7822,7 +7998,7 @@
               "numFrames": 61,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 100.0,
+            "mouseDragSensitivity": -100.0,
             "controlIndex": 61,
             "bindings": [
               {
@@ -7831,7 +8007,9 @@
                 "identifier": "1_1-3",
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
-                "translation": "linear"
+                "translation": "linear",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -7846,8 +8024,8 @@
             "label": "1-volume",
             "valueType": "float",
             "min": 0.0,
-            "max": 1.0,
-            "value": 1.0,
+            "max": 8.0,
+            "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
             "skin": {
@@ -7855,7 +8033,7 @@
               "numFrames": 61,
               "orientation": "vertical"
             },
-            "mouseDragSensitivity": 100.0,
+            "mouseDragSensitivity": -100.0,
             "controlIndex": 62,
             "bindings": [
               {
@@ -7864,7 +8042,9 @@
                 "identifier": "1",
                 "translationReversed": true,
                 "parameter": "AMP_VOLUME",
-                "translation": "linear"
+                "translation": "linear",
+                "translationOutputMin": 1.0,
+                "translationOutputMax": 0.0
               }
             ]
           },
@@ -7909,7 +8089,7 @@
             "label": "keyClick",
             "valueType": "float",
             "min": 0.0,
-            "max": 0.25,
+            "max": 10.0,
             "value": 0.0,
             "textColor": "FF000000",
             "style": "custom_skin_vertical_drag",
@@ -7925,7 +8105,10 @@
                 "type": "amp",
                 "level": "tag",
                 "identifier": "key-click",
-                "parameter": "AMP_VOLUME"
+                "parameter": "AMP_VOLUME",
+                "translation": "linear",
+                "translationOutputMin": 0.0,
+                "translationOutputMax": 0.25
               }
             ]
           },
@@ -7958,8 +8141,7 @@
                 "targetId": "fx_convolution",
                 "parameter": "FX_MIX",
                 "factor": 0.01,
-                "effectIndex": 0,
-                "position": 0
+                "effectIndex": 0
               }
             ]
           },
@@ -7992,8 +8174,7 @@
                 "targetId": "fx_convolution_2",
                 "parameter": "FX_MIX",
                 "factor": 0.01,
-                "effectIndex": 1,
-                "position": 1
+                "effectIndex": 1
               }
             ]
           }
