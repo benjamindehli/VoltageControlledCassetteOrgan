@@ -37,7 +37,7 @@
         <binding level="instrument" type="modulator" position="0" parameter="FREQUENCY" translation="linear" translationOutputMin="0" translationOutputMax="9" />
       </control>
       <control x="372" y="57" width="27" height="27" parameterName="lfoDepth" type="float" minValue="0" maxValue="10" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding level="instrument" type="modulator" position="0" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="10" />
+        <binding level="instrument" type="modulator" position="0" parameter="MOD_AMOUNT" translation="linear" translationOutputMin="0" translationOutputMax="1" />
       </control>
 
 
