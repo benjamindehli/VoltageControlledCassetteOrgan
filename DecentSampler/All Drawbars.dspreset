@@ -316,8 +316,8 @@
       </control>
 
       <!-- Key click -->
-      <control x="414" y="153" width="27" height="27" parameterName="keyClick" type="float" minValue="0" maxValue=".25" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="amp" level="tag" identifier="key-click" parameter="AMP_VOLUME" />
+      <control x="414" y="153" width="27" height="27" parameterName="keyClick" type="float" minValue="0" maxValue="10" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob_big.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+        <binding type="amp" level="tag" identifier="key-click" parameter="AMP_VOLUME" translation="linear" translationOutputMin="0" translationOutputMax="0.25" />
       </control>
 
       
