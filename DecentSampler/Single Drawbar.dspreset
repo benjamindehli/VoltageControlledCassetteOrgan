@@ -262,7 +262,6 @@
       <sample loNote="119" hiNote="119" rootNote="119" path="Samples/2/2_5B.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
 
       <sample loNote="120" hiNote="120" rootNote="120" path="Samples/1/1_5C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     
 
@@ -472,7 +471,6 @@
       <sample loNote="119" hiNote="119" rootNote="119" path="Samples/2_Dub/2_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
 
       <sample loNote="120" hiNote="120" rootNote="120" path="Samples/1_Dub/1_5C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     
     <group tags="key-click,B" ampEnvEnabled="false">
@@ -681,7 +679,6 @@
       <sample loNote="119" hiNote="119" rootNote="119" path="Samples/2/2_5B.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
 
       <sample loNote="120" hiNote="120" rootNote="120" path="Samples/1/1_5C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     
     <group tags="key-click,A2" ampEnvEnabled="false">

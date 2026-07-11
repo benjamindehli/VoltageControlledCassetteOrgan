@@ -561,7 +561,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/16/16_5A#.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/16/16_5B.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/16/16_6C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="5_1-3,A">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/5_1-3/5_1-3_1C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -625,7 +624,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/5_1-3/5_1-3_5A#.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/5_1-3/5_1-3_5B.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/5_1-3/5_1-3_6C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="8,A">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/8/8_1C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -689,7 +687,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/8/8_5A#.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/8/8_5B.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/8/8_6C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="4,A">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/4/4_1C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1194,7 +1191,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/16_Dub/16_5A#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/16_Dub/16_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/16_Dub/16_6C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="5_1-3,B">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/5_1-3_Dub/5_1-3_1C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1258,7 +1254,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/5_1-3_Dub/5_1-3_5A#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/5_1-3_Dub/5_1-3_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/5_1-3_Dub/5_1-3_6C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="8,B">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/8_Dub/8_1C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1322,7 +1317,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/8_Dub/8_5A#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/8_Dub/8_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/8_Dub/8_6C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="4,B">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/4_Dub/4_1C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1386,7 +1380,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/4_Dub/4_5A#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/4_Dub/4_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/4_Dub/4_6C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="2_2-3,B">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/2_2-3_Dub/2_2-3_1C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1450,7 +1443,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/2_2-3_Dub/2_2-3_5A#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/2_2-3_Dub/2_2-3_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/2_2-3_Dub/2_2-3_6C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="2,B">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/2_Dub/2_1C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1514,7 +1506,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/2_Dub/2_5A#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/2_Dub/2_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/2_Dub/2_6C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="1_3-5,B">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/1_3-5_Dub/1_3-5_1C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1578,7 +1569,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/1_3-5_Dub/1_3-5_5A#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/1_3-5_Dub/1_3-5_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/1_3-5_Dub/1_3-5_6C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="1_1-3,B">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/1_1-3_Dub/1_1-3_1C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1642,7 +1632,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/1_1-3_Dub/1_1-3_5A#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/1_1-3_Dub/1_1-3_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/1_1-3_Dub/1_1-3_6C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="1,B">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/1_Dub/1_1C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1706,7 +1695,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/1_Dub/1_5A#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/1_Dub/1_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/1_Dub/1_6C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="key-click,B" ampEnvEnabled="false">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/KeyClick_Dub/KeyClick_1C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1770,7 +1758,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/KeyClick_Dub/KeyClick_5A#_Dub.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/KeyClick_Dub/KeyClick_5B_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/KeyClick_Dub/KeyClick_6C_Dub.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="16,A2">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/16/16_1C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1834,7 +1821,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/16/16_5A#.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/16/16_5B.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/16/16_6C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="5_1-3,A2">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/5_1-3/5_1-3_1C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1898,7 +1884,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/5_1-3/5_1-3_5A#.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/5_1-3/5_1-3_5B.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/5_1-3/5_1-3_6C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="8,A2">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/8/8_1C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
@@ -1962,7 +1947,6 @@
       <sample loNote="94" hiNote="94" rootNote="94" path="Samples/8/8_5A#.wav" sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="95" hiNote="95" rootNote="95" path="Samples/8/8_5B.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
       <sample loNote="96" hiNote="96" rootNote="96" path="Samples/8/8_6C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
-      <effects/>
     </group>
     <group tags="4,A2">
       <sample loNote="36" hiNote="36" rootNote="36" path="Samples/4/4_1C.wav"  sampleRate="48000.0" pitchKeyTrack="0" loopEnabled="0"/>
