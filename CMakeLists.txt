@@ -8,5 +8,5 @@
 dmse_add_plugin(VoltageControlledCassetteOrgan
     PRODUCT_NAME "Voltage Controlled Cassette Organ"
     PLUGIN_CODE  Vcco
-    VERSION      1.0.0
+    VERSION      2.0.0
 )
