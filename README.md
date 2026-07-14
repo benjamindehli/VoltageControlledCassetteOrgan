@@ -1,38 +1,6 @@
-# Voltage Controlled Cassette Organ - Version: [1.3]
+# Voltage Controlled Cassette Organ
 
-Date: 2025-01-04
-
-Name: Benjamin Dehli
-
-Profile: [store.dehlimusikk.no][Gumroad profile]
-
-## Included formats
-
-- Decent Sampler
-
-## Release notes
-
-### Version 1.3 (2025-01-04)
-
-- Removed amplitude envelope for one shot samples
-
-### Version 1.2 (2023-07-05)
-
-- Added "All Drawbars (Lite)" preset
-  - No "Double track" feature
-  - Shares samples between drawbars to reduce sample count
-- Set default decay curve and release curve for "Single Drawbar" preset to exponential
-- Minor GUI adjustments
-
-### Version 1.1 (2023-07-03)
-
-- Fix mouse drag direction for drawbars
-
-### Version 1.0 (2023-06-26)
-
-- First version released
-
-## The Story
+## Introduction
 
 I discovered that the Korg CX-3, when sampled through cassette tape, introduced some imperfections that transformed the sound. The wow and flutter effects, along with the random warbles, created a fascinating movement reminiscent of a chorus/vibrato or the doppler effect from a rotary speaker. However, unlike traditional modulation effects with fixed speed, the cassette tape introduced a more random and organic quality to the modulation.
 
@@ -44,6 +12,55 @@ Each note for every drawbar, as well as the sound of the key click, has been met
 To achieve an even richer sound, the organ has been recorded twice onto cassette tape, resulting in a double-track effect that adds depth and character. Thanks to the inherent idiosyncrasies of tape deck mechanics and the tape itself, each playback yields a slightly different result.
 
 It also includes impulse responses for two tape delay/echo types and two room reverbs.
+
+## Release notes
+
+### Version 2.0.0 (upcoming)
+
+- Added a plugin version. See the section "The plugin version".
+- Corrected the UI values for the drawbars, the envelopes, the LFO and the key click amount.
+- Fixed the translationOutputMax value for the LFO depth.
+- Fixed dead default attributes.
+- Effect bindings now use effectIndex, and empty effects elements were removed.
+
+### Version 1.3.0 (2025-01-04)
+
+- Removed amplitude envelope for one shot samples
+
+### Version 1.2.0 (2023-07-05)
+
+- Added "All Drawbars (Lite)" preset
+  - No "Double track" feature
+  - Shares samples between drawbars to reduce sample count
+- Set default decay curve and release curve for "Single Drawbar" preset to exponential
+- Minor GUI adjustments
+
+### Version 1.1.0 (2023-07-03)
+
+- Fix mouse drag direction for drawbars
+
+### Version 1.0.0 (2023-06-26)
+
+- First version released
+
+## Included formats
+
+- VST3 (macOS, Windows and Linux)
+- AU (macOS)
+- Standalone application (macOS, Windows and Linux)
+- Decent Sampler
+
+## The plugin version
+
+The plugin is a self-contained instrument for macOS, Windows and Linux, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+Only the samples for the selected preset are loaded into memory, and a fresh instance lets you choose which preset to load before anything is decoded.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
 
 ## Technical specification
 
@@ -144,7 +161,7 @@ Unleash the power of the nine drawbars to shape your organ's tone with precision
 |:--:|
 |Volume control for the "key click" sound|
 
-During the early production of Hammond organs, a seemingly unintentional and unwanted occurrence was observed — a distinctive click or pop sound that accompanied the pressing of a key. Initially, this peculiar phenomenon was perceived as a manufacturing flaw or an undesirable artifact of the instrument. Efforts were made to mitigate or eliminate the clicking sound, as it was not part of the intended design.
+During the early production of Hammond organs, a seemingly unintentional and unwanted occurrence was observed: a distinctive click or pop sound that accompanied the pressing of a key. Initially, this peculiar phenomenon was perceived as a manufacturing flaw or an undesirable artifact of the instrument. Efforts were made to mitigate or eliminate the clicking sound, as it was not part of the intended design.
 
 Musicians discovered that this inadvertent click, which was initially considered a fault, actually contributed a unique and appealing quality to the instrument's overall sound. Rather than viewing it as an unwanted artifact, musicians started to appreciate the click as a distinct characteristic that added depth and character to their performances.
 
@@ -200,5 +217,12 @@ You'll also find two reverb effects: the short reverb, evoking the intimacy of a
   - Switches between a short/small room reverb and a long/big room reverb
 - Mix
   - Mix between direct signal and reverb signal
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
 
 [Gumroad profile]: https://store.dehlimusikk.no/
