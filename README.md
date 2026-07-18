@@ -15,7 +15,7 @@ It also includes impulse responses for two tape delay/echo types and two room re
 
 ## Release notes
 
-### Version 2.0.0 (2026-07-18)
+### Version 2.0.0 (2026-07-19)
 
 - Added a plugin version. See the section "The plugin version".
 - Corrected the UI values for the drawbars, the envelopes, the LFO and the key click amount.
