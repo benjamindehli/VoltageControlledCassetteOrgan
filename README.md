@@ -79,7 +79,7 @@ This version of Voltage Controlled Cassette Organ is an instrument preset / samp
 
 ## Instrument presets
 
-To ensure optimal performance and flexibility, the library offers two presets: A quite resource-intensive "All Drawbars" preset with 9 drawbars and a "Single Drawbar" preset which conserves resources by playing back fewer samples per key. The "Single Drawbar" preset does however have samples from different drawbars for an extended key range.
+To ensure optimal performance and flexibility, the instrument offers three presets: A quite resource-intensive "All Drawbars" preset with 9 drawbars, a lighter "All Drawbars (Lite)" preset, and a "Single Drawbar" preset which conserves resources by playing back fewer samples per key. The "Single Drawbar" preset does however have samples from different drawbars for an extended key range.
 
 ### All Drawbars
 
@@ -88,6 +88,11 @@ To ensure optimal performance and flexibility, the library offers two presets: A
 |User interface for the "All Drawbars" preset|
 
 The "All Drawbars" preset plays back 20 different samples per note, resulting in a rich and complex sound. However, it does demand significant system resources, especially when playing big chords.
+
+### All Drawbars (Lite)
+
+A lighter variant of the "All Drawbars" preset.
+It has no "Double track" feature and shares samples between drawbars to reduce the sample count, which lowers the memory use.
 
 ### Single Drawbar
 
