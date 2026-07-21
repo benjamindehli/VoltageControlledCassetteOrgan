@@ -5628,9 +5628,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 0,
-          "position": 0
+          "translationOutputMax": 1.0
         }
       ]
     },
@@ -5648,9 +5646,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 1,
-          "position": 1
+          "translationOutputMax": 1.0
         }
       ]
     },
@@ -5668,9 +5664,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 2,
-          "position": 2
+          "translationOutputMax": 1.0
         }
       ]
     },
@@ -5688,9 +5682,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 3,
-          "position": 3
+          "translationOutputMax": 1.0
         }
       ]
     },
@@ -5708,9 +5700,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 4,
-          "position": 4
+          "translationOutputMax": 1.0
         }
       ]
     },
@@ -5728,9 +5718,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 5,
-          "position": 5
+          "translationOutputMax": 1.0
         }
       ]
     },
@@ -5748,9 +5736,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 6,
-          "position": 6
+          "translationOutputMax": 1.0
         }
       ]
     },
@@ -5768,9 +5754,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 7,
-          "position": 7
+          "translationOutputMax": 1.0
         }
       ]
     },
@@ -5788,9 +5772,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 8,
-          "position": 8
+          "translationOutputMax": 1.0
         }
       ]
     }
@@ -5837,9 +5819,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -5873,9 +5853,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 3.0
               }
             ]
           },
@@ -5909,9 +5887,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -5945,9 +5921,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 4.0
               }
             ]
           },
@@ -5981,8 +5955,7 @@
                 "parameter": "FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 0
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -6016,8 +5989,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 0
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -6051,9 +6023,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 1,
-                "position": 1
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -6087,9 +6057,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 1,
-                "position": 1
+                "translationOutputMax": 3.0
               }
             ]
           },
@@ -6123,9 +6091,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 1,
-                "position": 1
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -6159,9 +6125,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 1,
-                "position": 1
+                "translationOutputMax": 4.0
               }
             ]
           },
@@ -6195,8 +6159,7 @@
                 "parameter": "FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 1
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -6230,8 +6193,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 1
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -6265,9 +6227,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -6301,9 +6261,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 3.0
               }
             ]
           },
@@ -6337,9 +6295,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -6373,9 +6329,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 4.0
               }
             ]
           },
@@ -6409,8 +6363,7 @@
                 "parameter": "FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 2
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -6444,8 +6397,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 2
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -6479,9 +6431,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 3,
-                "position": 3
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -6515,9 +6465,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 3,
-                "position": 3
+                "translationOutputMax": 3.0
               }
             ]
           },
@@ -6551,9 +6499,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 3,
-                "position": 3
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -6587,9 +6533,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 3,
-                "position": 3
+                "translationOutputMax": 4.0
               }
             ]
           },
@@ -6623,8 +6567,7 @@
                 "parameter": "FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 3
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -6658,8 +6601,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 3
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -6693,9 +6635,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 4,
-                "position": 4
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -6729,9 +6669,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 4,
-                "position": 4
+                "translationOutputMax": 3.0
               }
             ]
           },
@@ -6765,9 +6703,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 4,
-                "position": 4
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -6801,9 +6737,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 4,
-                "position": 4
+                "translationOutputMax": 4.0
               }
             ]
           },
@@ -6837,8 +6771,7 @@
                 "parameter": "FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 4
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -6872,8 +6805,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 4
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -6907,9 +6839,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 5,
-                "position": 5
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -6943,9 +6873,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 5,
-                "position": 5
+                "translationOutputMax": 3.0
               }
             ]
           },
@@ -6979,9 +6907,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 5,
-                "position": 5
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -7015,9 +6941,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 5,
-                "position": 5
+                "translationOutputMax": 4.0
               }
             ]
           },
@@ -7051,8 +6975,7 @@
                 "parameter": "FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 5
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -7086,8 +7009,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 5
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -7121,9 +7043,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 6,
-                "position": 6
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -7157,9 +7077,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 6,
-                "position": 6
+                "translationOutputMax": 3.0
               }
             ]
           },
@@ -7193,9 +7111,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 6,
-                "position": 6
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -7229,9 +7145,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 6,
-                "position": 6
+                "translationOutputMax": 4.0
               }
             ]
           },
@@ -7265,8 +7179,7 @@
                 "parameter": "FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 6
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -7300,8 +7213,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 6
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -7335,9 +7247,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 7,
-                "position": 7
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -7371,9 +7281,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 7,
-                "position": 7
+                "translationOutputMax": 3.0
               }
             ]
           },
@@ -7407,9 +7315,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 7,
-                "position": 7
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -7443,9 +7349,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 7,
-                "position": 7
+                "translationOutputMax": 4.0
               }
             ]
           },
@@ -7479,8 +7383,7 @@
                 "parameter": "FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 7
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -7514,8 +7417,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 7
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -7549,9 +7451,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 8,
-                "position": 8
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -7585,9 +7485,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 8,
-                "position": 8
+                "translationOutputMax": 3.0
               }
             ]
           },
@@ -7621,9 +7519,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 8,
-                "position": 8
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -7657,9 +7553,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 8,
-                "position": 8
+                "translationOutputMax": 4.0
               }
             ]
           },
@@ -7693,8 +7587,7 @@
                 "parameter": "FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 8
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -7728,8 +7621,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 8
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -8140,8 +8032,7 @@
                 "level": "instrument",
                 "targetId": "fx_convolution",
                 "parameter": "FX_MIX",
-                "factor": 0.01,
-                "effectIndex": 0
+                "factor": 0.01
               }
             ]
           },
@@ -8173,8 +8064,7 @@
                 "level": "instrument",
                 "targetId": "fx_convolution_2",
                 "parameter": "FX_MIX",
-                "factor": 0.01,
-                "effectIndex": 1
+                "factor": 0.01
               }
             ]
           }
@@ -8204,7 +8094,6 @@
                     "targetId": "fx_convolution",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 0,
                     "translationValue": false
                   }
                 ]
@@ -8221,7 +8110,6 @@
                     "targetId": "fx_convolution",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 0,
                     "translationValue": true
                   }
                 ]
@@ -8252,7 +8140,6 @@
                     "targetId": "fx_convolution",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 0,
                     "translationValue": "ir:echo-short"
                   }
                 ]
@@ -8269,7 +8156,6 @@
                     "targetId": "fx_convolution",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 0,
                     "translationValue": "ir:echo-long"
                   }
                 ]
@@ -8300,7 +8186,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": false
                   }
                 ]
@@ -8317,7 +8202,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": true
                   }
                 ]
@@ -8348,7 +8232,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "ir:reverb-short"
                   }
                 ]
@@ -8365,7 +8248,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "ir:reverb-long"
                   }
                 ]

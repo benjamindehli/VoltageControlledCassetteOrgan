@@ -3575,9 +3575,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 0,
-          "position": 0
+          "translationOutputMax": 1.0
         },
         {
           "type": "amp",
@@ -3587,9 +3585,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 2,
-          "position": 2
+          "translationOutputMax": 1.0
         },
         {
           "type": "amp",
@@ -3599,9 +3595,7 @@
           "translation": "linear",
           "modBehavior": "set",
           "translationOutputMin": 0.0,
-          "translationOutputMax": 1.0,
-          "groupIndex": 4,
-          "position": 4
+          "translationOutputMax": 1.0
         }
       ]
     }
@@ -3648,9 +3642,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 2.0
               },
               {
                 "type": "amp",
@@ -3659,9 +3651,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 2.0
               },
               {
                 "type": "amp",
@@ -3670,9 +3660,7 @@
                 "parameter": "ENV_ATTACK",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 2.0,
-                "groupIndex": 4,
-                "position": 4
+                "translationOutputMax": 2.0
               }
             ]
           },
@@ -3706,9 +3694,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 3.0
               },
               {
                 "type": "amp",
@@ -3717,9 +3703,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 3.0
               },
               {
                 "type": "amp",
@@ -3728,9 +3712,7 @@
                 "parameter": "ENV_DECAY",
                 "translation": "linear",
                 "translationOutputMin": 0.02,
-                "translationOutputMax": 3.0,
-                "groupIndex": 4,
-                "position": 4
+                "translationOutputMax": 3.0
               }
             ]
           },
@@ -3764,9 +3746,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 1.0
               },
               {
                 "type": "amp",
@@ -3775,9 +3755,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 1.0
               },
               {
                 "type": "amp",
@@ -3786,9 +3764,7 @@
                 "parameter": "ENV_SUSTAIN",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "groupIndex": 4,
-                "position": 4
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -3822,9 +3798,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 0,
-                "position": 0
+                "translationOutputMax": 4.0
               },
               {
                 "type": "amp",
@@ -3833,9 +3807,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 2,
-                "position": 2
+                "translationOutputMax": 4.0
               },
               {
                 "type": "amp",
@@ -3844,9 +3816,7 @@
                 "parameter": "ENV_RELEASE",
                 "translation": "linear",
                 "translationOutputMin": 0.07,
-                "translationOutputMax": 4.0,
-                "groupIndex": 4,
-                "position": 4
+                "translationOutputMax": 4.0
               }
             ]
           },
@@ -3880,8 +3850,7 @@
                 "parameter": "FREQUENCY",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 9.0,
-                "position": 0
+                "translationOutputMax": 9.0
               }
             ]
           },
@@ -3915,8 +3884,7 @@
                 "parameter": "MOD_AMOUNT",
                 "translation": "linear",
                 "translationOutputMin": 0.0,
-                "translationOutputMax": 1.0,
-                "position": 0
+                "translationOutputMax": 1.0
               }
             ]
           },
@@ -4072,8 +4040,7 @@
                 "level": "instrument",
                 "targetId": "fx_convolution",
                 "parameter": "FX_MIX",
-                "factor": 0.01,
-                "effectIndex": 0
+                "factor": 0.01
               }
             ]
           },
@@ -4105,8 +4072,7 @@
                 "level": "instrument",
                 "targetId": "fx_convolution_2",
                 "parameter": "FX_MIX",
-                "factor": 0.01,
-                "effectIndex": 1
+                "factor": 0.01
               }
             ]
           }
@@ -4136,8 +4102,6 @@
                     "targetId": "grp_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 2,
-                    "position": 2,
                     "translationValue": false
                   },
                   {
@@ -4146,8 +4110,6 @@
                     "targetId": "grp_3",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 3,
-                    "position": 3,
                     "translationValue": false
                   },
                   {
@@ -4180,8 +4142,6 @@
                     "targetId": "grp_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 2,
-                    "position": 2,
                     "translationValue": true
                   },
                   {
@@ -4190,8 +4150,6 @@
                     "targetId": "grp_3",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "groupIndex": 3,
-                    "position": 3,
                     "translationValue": true
                   },
                   {
@@ -4238,8 +4196,6 @@
                     "targetId": "grp_0",
                     "parameter": "PAN",
                     "translation": "fixed_value",
-                    "groupIndex": 0,
-                    "position": 0,
                     "translationValue": "0"
                   },
                   {
@@ -4248,8 +4204,6 @@
                     "targetId": "grp_1",
                     "parameter": "PAN",
                     "translation": "fixed_value",
-                    "groupIndex": 1,
-                    "position": 1,
                     "translationValue": "0"
                   },
                   {
@@ -4258,8 +4212,6 @@
                     "targetId": "grp_2",
                     "parameter": "PAN",
                     "translation": "fixed_value",
-                    "groupIndex": 2,
-                    "position": 2,
                     "translationValue": "0"
                   },
                   {
@@ -4268,8 +4220,6 @@
                     "targetId": "grp_3",
                     "parameter": "PAN",
                     "translation": "fixed_value",
-                    "groupIndex": 3,
-                    "position": 3,
                     "translationValue": "0"
                   },
                   {
@@ -4293,8 +4243,6 @@
                     "targetId": "grp_0",
                     "parameter": "PAN",
                     "translation": "fixed_value",
-                    "groupIndex": 0,
-                    "position": 0,
                     "translationValue": "-100"
                   },
                   {
@@ -4303,8 +4251,6 @@
                     "targetId": "grp_1",
                     "parameter": "PAN",
                     "translation": "fixed_value",
-                    "groupIndex": 1,
-                    "position": 1,
                     "translationValue": "-100"
                   },
                   {
@@ -4313,8 +4259,6 @@
                     "targetId": "grp_2",
                     "parameter": "PAN",
                     "translation": "fixed_value",
-                    "groupIndex": 2,
-                    "position": 2,
                     "translationValue": "100"
                   },
                   {
@@ -4323,8 +4267,6 @@
                     "targetId": "grp_3",
                     "parameter": "PAN",
                     "translation": "fixed_value",
-                    "groupIndex": 3,
-                    "position": 3,
                     "translationValue": "100"
                   },
                   {
@@ -4362,7 +4304,6 @@
                     "targetId": "fx_convolution",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 0,
                     "translationValue": false
                   }
                 ]
@@ -4379,7 +4320,6 @@
                     "targetId": "fx_convolution",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 0,
                     "translationValue": true
                   }
                 ]
@@ -4410,7 +4350,6 @@
                     "targetId": "fx_convolution",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 0,
                     "translationValue": "ir:echo-short"
                   }
                 ]
@@ -4427,7 +4366,6 @@
                     "targetId": "fx_convolution",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 0,
                     "translationValue": "ir:echo-long"
                   }
                 ]
@@ -4458,7 +4396,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": false
                   }
                 ]
@@ -4475,7 +4412,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": true
                   }
                 ]
@@ -4506,7 +4442,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "ir:reverb-short"
                   }
                 ]
@@ -4523,7 +4458,6 @@
                     "targetId": "fx_convolution_2",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
-                    "effectIndex": 1,
                     "translationValue": "ir:reverb-long"
                   }
                 ]
