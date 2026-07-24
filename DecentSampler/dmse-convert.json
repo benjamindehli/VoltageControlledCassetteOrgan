@@ -7,6 +7,10 @@
     "dropGroupTags": ["A2"],
     "doubleTrackBoostTag": "A",
     "doubleTrackStereoBoost": 1.8,
+    "overlay": {
+        "default": "Resources/overlay_default.png"
+    },
+    "overlayScope": "instrument",
     "keyboardColors": {
         "All Drawbars": [{ "loNote": 36, "hiNote": 96, "color": "none" }],
         "All Drawbars (Lite)": [{ "loNote": 36, "hiNote": 96, "color": "none" }],
