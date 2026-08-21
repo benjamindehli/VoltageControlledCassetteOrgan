@@ -1,5 +1,7 @@
 # Voltage Controlled Cassette Organ
 
+**[Product page and documentation](https://benjamindehli.github.io/VoltageControlledCassetteOrgan/)**
+
 ## Introduction
 
 I discovered that the Korg CX-3, when sampled through cassette tape, introduced some imperfections that transformed the sound. The wow and flutter effects, along with the random warbles, created a fascinating movement reminiscent of a chorus/vibrato or the doppler effect from a rotary speaker. However, unlike traditional modulation effects with fixed speed, the cassette tape introduced a more random and organic quality to the modulation.
