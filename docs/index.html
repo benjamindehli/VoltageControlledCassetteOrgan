@@ -33,22 +33,37 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/#website",
+      "name": "Voltage Controlled Cassette Organ",
+      "url": "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/",
+      "description": "Product page and documentation for Voltage Controlled Cassette Organ, a sample instrument by Dehli Musikk.",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
+      },
+      "publisher": {
+        "@id": "https://www.dehlimusikk.no/"
+      },
+      "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "about": {
+        "@id": "https://www.dehlimusikk.no/products/voltage-controlled-cassette-organ/#product"
+      },
+      "sameAs": "https://github.com/benjamindehli/VoltageControlledCassetteOrgan"
+    },
+    {
       "@type": "SoftwareApplication",
-      "@id": "https://store.dehlimusikk.no/l/voltage-controlled-cassette-organ",
+      "@id": "https://www.dehlimusikk.no/products/voltage-controlled-cassette-organ/#product",
       "name": "Voltage Controlled Cassette Organ",
       "description": "Voltage Controlled Cassette Organ: I discovered that the Korg CX-3, when sampled through cassette tape, introduced some imperfections that transformed the…",
       "url": "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/",
       "applicationCategory": "MultimediaApplication",
       "applicationSubCategory": "Sample library / virtual instrument",
       "author": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://www.dehlimusikk.no/"
       },
       "operatingSystem": "macOS, Windows, Linux",
       "softwareVersion": "2.1.0",
@@ -56,31 +71,21 @@
       "image": "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-alldrawbars.webp",
       "screenshot": [
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-alldrawbars.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-alldrawbars.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-singledrawbar.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-singledrawbar.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-envelope-alldrawbars.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-envelope-alldrawbars.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-envelope-singledrawbar.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-envelope-singledrawbar.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-envelopecurves.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-envelopecurves.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-lfo-alldrawbars.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-lfo-alldrawbars.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-lfo-singledrawbar.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-lfo-singledrawbar.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-drawbars.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-drawbars.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-keyclick.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-keyclick.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-doubletrack.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-doubletrack.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-echo.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-echo.webp",
-        "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-reverb.webp",
         "https://benjamindehli.github.io/VoltageControlledCassetteOrgan/img/screenshots-reverb.webp"
       ],
       "sameAs": [
+        "https://www.dehlimusikk.no/products/voltage-controlled-cassette-organ/",
+        "https://www.dehlimusikk.no/en/products/voltage-controlled-cassette-organ/",
         "https://store.dehlimusikk.no/l/voltage-controlled-cassette-organ",
         "https://dehlimusikk.gumroad.com/l/voltage-controlled-cassette-organ",
         "https://www.cylex.no/bedrift-produkt/voltage+controlled+cassette+organ_223138.html",
@@ -101,6 +106,18 @@
           "description": "Pay what you want, from $9.99"
         }
       }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f",
+      "name": "Benjamin Dehli",
+      "url": "https://www.dehlimusikk.no/"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.dehlimusikk.no/",
+      "name": "Dehli Musikk",
+      "url": "https://www.dehlimusikk.no/"
     }
   ]
 }
