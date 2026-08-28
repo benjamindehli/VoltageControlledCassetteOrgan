@@ -8,10 +8,9 @@ I discovered that the Korg CX-3, when sampled through cassette tape, introduced 
 
 ## Description
 
-You'll get the iconic sound of the Korg CX-3, infused with the unmistakable charm of cassette tape recording, with the Voltage Controlled Cassette Organ. It captures the essence of the organs analog oscillators as well as the pitch fluctuation (wow/flutter), harmonic distortion, and coloration associated with cassette tape recordings.
+Voltage Controlled Cassette Organ is a Korg CX-3 recorded to cassette tape. The tape adds pitch fluctuation (wow and flutter), harmonic distortion and coloration on top of the organ's analog oscillators.
 
-Each note for every drawbar, as well as the sound of the key click, has been meticulously sampled as individual audio files, ensuring authenticity and attention to detail.
-To achieve an even richer sound, the organ has been recorded twice onto cassette tape, resulting in a double-track effect that adds depth and character. Thanks to the inherent idiosyncrasies of tape deck mechanics and the tape itself, each playback yields a slightly different result.
+Every note of every drawbar was sampled individually, as was the key click. The organ was recorded to tape twice so the takes can be layered as a double track; because of the tape deck mechanics and the tape itself, no two passes are identical.
 
 It also includes impulse responses for two tape delay/echo types and two room reverbs.
 
@@ -116,8 +115,7 @@ As a more resource-friendly alternative, the "Single Drawbar" preset plays back 
 
 ## User Interface
 
-The user interface offers precise control over every aspect of the instrument and effects.
-Explore parameters to refine your sound, including control over the nine drawbars, key click volume, envelope, amplitude modulation with LFOs, double track, and the immersive effects of echo and reverb.
+Nine drawbars sit alongside key click volume, an envelope, amplitude modulation with LFOs, double track, and the echo and reverb effects.
 
 ### ADSR Envelope
 
@@ -128,8 +126,6 @@ Explore parameters to refine your sound, including control over the nine drawbar
 |![Envelope controls for the "Single Drawbar" preset](/Screenshots/envelope_SingleDrawbar.png)|
 |:--:|
 |Envelope controls for the "Single Drawbar" preset|
-
-Shape your sound precisely with the Attack, Decay, Sustain, and Release parameters. Whether you desire a punchy, staccato tone or a smooth, lingering ambiance, the ADSR envelope allows you to tailor the dynamics to your liking.
 
 - Attack
   - Individual attack time of the amplitude envelope for each drawbar
@@ -178,7 +174,7 @@ The LFO Rate and LFO Depth knobs enable you to modulate the amplitude of the dra
 |:--:|
 |Drawbar controls for the "All Drawbars" preset|
 
-Unleash the power of the nine drawbars to shape your organ's tone with precision. Each drawbar controls the amplitude of a specific harmonic overtone, offering you unparalleled control over the instrument's harmonic richness.
+Each of the nine drawbars sets the level of one harmonic overtone, sampled from the Korg CX-3 through cassette tape.
 
 ### Key click
 
@@ -219,8 +215,6 @@ These effects are achieved using carefully crafted impulse responses. The echo e
 |:--:|
 |Controls for the tape echo impulse response|
 
-Select from two distinctive echo options: the short echo, delivering a classic slapback effect, and the long echo, characterized by a slower decay and numerous repeats.
-
 - On
   - Turns the echo on and off
 - Long
@@ -233,8 +227,6 @@ Select from two distinctive echo options: the short echo, delivering a classic s
 |![Controls for the room reverb impulse response](/Screenshots/reverb.png)|
 |:--:|
 |Controls for the room reverb impulse response|
-
-You'll also find two reverb effects: the short reverb, evoking the intimacy of a small room, and the long reverb, enveloping your sound in the vastness of a spacious environment.
 
 - On
   - Turns the reverb on and off
