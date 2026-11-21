@@ -14483,6 +14483,7 @@
         "buttons": [
           {
             "id": "btn_0",
+            "label": "Double track",
             "rect": {
               "x": 485,
               "y": 200,
@@ -14833,6 +14834,7 @@
           },
           {
             "id": "btn_1",
+            "label": "Double track stereo",
             "rect": {
               "x": 513,
               "y": 200,
@@ -15197,6 +15199,7 @@
           },
           {
             "id": "btn_2",
+            "label": "Echo",
             "rect": {
               "x": 573,
               "y": 200,
@@ -15243,6 +15246,7 @@
           },
           {
             "id": "btn_3",
+            "label": "Long echo",
             "rect": {
               "x": 601,
               "y": 200,
@@ -15289,6 +15293,7 @@
           },
           {
             "id": "btn_4",
+            "label": "Reverb",
             "rect": {
               "x": 704,
               "y": 200,
@@ -15335,6 +15340,7 @@
           },
           {
             "id": "btn_5",
+            "label": "Long reverb",
             "rect": {
               "x": 732,
               "y": 200,

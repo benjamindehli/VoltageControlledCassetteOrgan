@@ -11,6 +11,20 @@
         "default": "Resources/overlay_default.png"
     },
     "overlayScope": "instrument",
+    "labels": {
+        "btn_0": "Double track",
+        "btn_1": "Double track stereo",
+        "btn_2": "Echo",
+        "btn_3": "Long echo",
+        "btn_4": "Reverb",
+        "btn_5": "Long reverb",
+        "All Drawbars (Lite)": {
+            "btn_0": "Echo",
+            "btn_1": "Long echo",
+            "btn_2": "Reverb",
+            "btn_3": "Long reverb"
+        }
+    },
     "keyboardColors": {
         "All Drawbars": [{ "loNote": 36, "hiNote": 96, "color": "none" }],
         "All Drawbars (Lite)": [{ "loNote": 36, "hiNote": 96, "color": "none" }],
