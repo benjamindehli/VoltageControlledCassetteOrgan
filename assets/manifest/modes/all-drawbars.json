@@ -11560,7 +11560,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "16-attack",
+            "label": "Attack 16",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -11612,7 +11612,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "16-decay",
+            "label": "Decay 16",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -11664,7 +11664,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "16-sustain",
+            "label": "Sustain 16",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -11716,7 +11716,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "16-release",
+            "label": "Release 16",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -11768,7 +11768,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "16-lfoRate",
+            "label": "LFO rate 16",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -11802,7 +11802,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "16-lfoDepth",
+            "label": "LFO depth 16",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -11836,7 +11836,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "5_1-3-attack",
+            "label": "Attack 5 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -11888,7 +11888,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "5_1-3-decay",
+            "label": "Decay 5 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -11940,7 +11940,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "5_1-3-sustain",
+            "label": "Sustain 5 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -11992,7 +11992,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "5_1-3-release",
+            "label": "Release 5 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12044,7 +12044,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "5_1-3-lfoRate",
+            "label": "LFO rate 5 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12078,7 +12078,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "5_1-3-lfoDepth",
+            "label": "LFO depth 5 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12112,7 +12112,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "8-attack",
+            "label": "Attack 8",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12164,7 +12164,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "8-decay",
+            "label": "Decay 8",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12216,7 +12216,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "8-sustain",
+            "label": "Sustain 8",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12268,7 +12268,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "8-release",
+            "label": "Release 8",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12320,7 +12320,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "8-lfoRate",
+            "label": "LFO rate 8",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12354,7 +12354,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "8-lfoDepth",
+            "label": "LFO depth 8",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12388,7 +12388,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "4-attack",
+            "label": "Attack 4",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12440,7 +12440,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "4-decay",
+            "label": "Decay 4",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12492,7 +12492,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "4-sustain",
+            "label": "Sustain 4",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12544,7 +12544,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "4-release",
+            "label": "Release 4",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12596,7 +12596,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "4-lfoRate",
+            "label": "LFO rate 4",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12630,7 +12630,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "4-lfoDepth",
+            "label": "LFO depth 4",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12664,7 +12664,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2_2-3-attack",
+            "label": "Attack 2 2/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12716,7 +12716,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2_2-3-decay",
+            "label": "Decay 2 2/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12768,7 +12768,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2_2-3-sustain",
+            "label": "Sustain 2 2/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12820,7 +12820,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2_2-3-release",
+            "label": "Release 2 2/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12872,7 +12872,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2_2-3-lfoRate",
+            "label": "LFO rate 2 2/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12906,7 +12906,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2_2-3-lfoDepth",
+            "label": "LFO depth 2 2/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12940,7 +12940,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2-attack",
+            "label": "Attack 2",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -12992,7 +12992,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2-decay",
+            "label": "Decay 2",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13044,7 +13044,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2-sustain",
+            "label": "Sustain 2",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13096,7 +13096,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2-release",
+            "label": "Release 2",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13148,7 +13148,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2-lfoRate",
+            "label": "LFO rate 2",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13182,7 +13182,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "2-lfoDepth",
+            "label": "LFO depth 2",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13216,7 +13216,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_3-5-attack",
+            "label": "Attack 1 3/5",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13268,7 +13268,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_3-5-decay",
+            "label": "Decay 1 3/5",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13320,7 +13320,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_3-5-sustain",
+            "label": "Sustain 1 3/5",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13372,7 +13372,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_3-5-release",
+            "label": "Release 1 3/5",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13424,7 +13424,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_3-5-lfoRate",
+            "label": "LFO rate 1 3/5",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13458,7 +13458,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_3-5-lfoDepth",
+            "label": "LFO depth 1 3/5",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13492,7 +13492,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_1-3-attack",
+            "label": "Attack 1 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13544,7 +13544,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_1-3-decay",
+            "label": "Decay 1 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13596,7 +13596,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_1-3-sustain",
+            "label": "Sustain 1 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13648,7 +13648,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_1-3-release",
+            "label": "Release 1 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13700,7 +13700,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_1-3-lfoRate",
+            "label": "LFO rate 1 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13734,7 +13734,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1_1-3-lfoDepth",
+            "label": "LFO depth 1 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13768,7 +13768,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1-attack",
+            "label": "Attack 1",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13820,7 +13820,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1-decay",
+            "label": "Decay 1",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13872,7 +13872,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1-sustain",
+            "label": "Sustain 1",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13924,7 +13924,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1-release",
+            "label": "Release 1",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -13976,7 +13976,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1-lfoRate",
+            "label": "LFO rate 1",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -14010,7 +14010,7 @@
               "width": 18,
               "height": 18
             },
-            "label": "1-lfoDepth",
+            "label": "LFO depth 1",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -14044,7 +14044,7 @@
               "width": 28,
               "height": 122
             },
-            "label": "16-volume",
+            "label": "Drawbar 16",
             "valueType": "float",
             "min": 0.0,
             "max": 8.0,
@@ -14079,7 +14079,7 @@
               "width": 28,
               "height": 122
             },
-            "label": "5_1-3-volume",
+            "label": "Drawbar 5 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 8.0,
@@ -14114,7 +14114,7 @@
               "width": 28,
               "height": 122
             },
-            "label": "8-volume",
+            "label": "Drawbar 8",
             "valueType": "float",
             "min": 0.0,
             "max": 8.0,
@@ -14149,7 +14149,7 @@
               "width": 28,
               "height": 122
             },
-            "label": "4-volume",
+            "label": "Drawbar 4",
             "valueType": "float",
             "min": 0.0,
             "max": 8.0,
@@ -14184,7 +14184,7 @@
               "width": 28,
               "height": 122
             },
-            "label": "2_2-3-volume",
+            "label": "Drawbar 2 2/3",
             "valueType": "float",
             "min": 0.0,
             "max": 8.0,
@@ -14219,7 +14219,7 @@
               "width": 28,
               "height": 122
             },
-            "label": "2-volume",
+            "label": "Drawbar 2",
             "valueType": "float",
             "min": 0.0,
             "max": 8.0,
@@ -14254,7 +14254,7 @@
               "width": 28,
               "height": 122
             },
-            "label": "1_3-5-volume",
+            "label": "Drawbar 1 3/5",
             "valueType": "float",
             "min": 0.0,
             "max": 8.0,
@@ -14289,7 +14289,7 @@
               "width": 28,
               "height": 122
             },
-            "label": "1_1-3-volume",
+            "label": "Drawbar 1 1/3",
             "valueType": "float",
             "min": 0.0,
             "max": 8.0,
@@ -14324,7 +14324,7 @@
               "width": 28,
               "height": 122
             },
-            "label": "1-volume",
+            "label": "Drawbar 1",
             "valueType": "float",
             "min": 0.0,
             "max": 8.0,
@@ -14359,7 +14359,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "attackCurve",
+            "label": "Attack curve",
             "valueType": "float",
             "min": -100.0,
             "max": 100.0,
@@ -14389,7 +14389,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "keyClick",
+            "label": "Key click",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -14423,7 +14423,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "Echo",
+            "label": "Echo mix",
             "valueType": "percent",
             "min": 0.0,
             "max": 100.0,
@@ -14455,7 +14455,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "Reverb",
+            "label": "Reverb mix",
             "valueType": "percent",
             "min": 0.0,
             "max": 100.0,

@@ -3622,7 +3622,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "attack",
+            "label": "Attack",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -3674,7 +3674,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "decay",
+            "label": "Decay",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -3726,7 +3726,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "sustain",
+            "label": "Sustain",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -3778,7 +3778,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "release",
+            "label": "Release",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -3830,7 +3830,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "lfoRate",
+            "label": "LFO rate",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -3864,7 +3864,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "lfoDepth",
+            "label": "LFO depth",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -3898,7 +3898,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "attackCurve",
+            "label": "Attack curve",
             "valueType": "float",
             "min": -100.0,
             "max": 100.0,
@@ -3928,7 +3928,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "decayCurve",
+            "label": "Decay curve",
             "valueType": "float",
             "min": -100.0,
             "max": 100.0,
@@ -3958,7 +3958,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "releaseCurve",
+            "label": "Release curve",
             "valueType": "float",
             "min": -100.0,
             "max": 100.0,
@@ -3988,7 +3988,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "keyClick",
+            "label": "Key click",
             "valueType": "float",
             "min": 0.0,
             "max": 10.0,
@@ -4022,7 +4022,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "Echo",
+            "label": "Echo mix",
             "valueType": "percent",
             "min": 0.0,
             "max": 100.0,
@@ -4054,7 +4054,7 @@
               "width": 27,
               "height": 27
             },
-            "label": "Reverb",
+            "label": "Reverb mix",
             "valueType": "percent",
             "min": 0.0,
             "max": 100.0,
