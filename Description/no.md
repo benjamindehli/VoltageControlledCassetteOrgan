@@ -19,4 +19,4 @@ Rundt de ni drawbarene finner du et nivå for key click, en ADSR-envelope med ju
 - Amplitude-LFO med hastighet og dybde.
 - Impulsresponser for båndekko og romklang.
 - Nivåkontroll for key click.
-- 1220 sampler i 48 kHz / 24 bit, bygd inn tapsfritt (3,46 GB kildebibliotek).
+- 1220 sampler i 48 kHz / 24 bit, lagret tapsfritt (3,46 GB kildebibliotek).

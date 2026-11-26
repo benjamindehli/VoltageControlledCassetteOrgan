@@ -19,4 +19,4 @@ Around the nine drawbars sit a key click level, an ADSR envelope with an adjusta
 - Amplitude LFO with rate and depth.
 - Tape echo and room reverb impulse responses.
 - Key click level control.
-- 1220 samples at 48 kHz / 24-bit, embedded losslessly (3.46 GB source library).
+- 1220 samples at 48 kHz / 24-bit, stored losslessly (3.46 GB source library).
